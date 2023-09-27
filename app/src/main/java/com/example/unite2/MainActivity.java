@@ -14,8 +14,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void Uyg2Goster(View view) {
-        Intent i = new Intent(MainActivity.this, uyg2.class);
-                startActivity(i);
+    public void uyg2Goster(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg2Activity.class);
+        startActivity(i);
+    }
+
+    public void Uyg4Goster(View view) {
+        Intent i = new Intent(MainActivity.this, Uyg4Activity.class);
+        startActivity(i);
+    }
+
+    public void ss64Goster(View view) {
+        Intent i = new Intent(MainActivity.this, SS64Activity.class);
+        startActivity(i);
     }
 }

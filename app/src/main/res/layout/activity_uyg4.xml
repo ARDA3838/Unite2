@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Uyg4Activity">
 
-    <Button
-        android:id="@+id/BtnUyg2"
+    <EditText
+        android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
-        android:padding="25dp"
-        android:paddingBottom="25dp"
-        android:text="BİLİŞİM"
-        android:textSize="50sp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="Şifreyi Giriniz"
+        android:inputType="textPassword"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
